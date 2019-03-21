@@ -9,8 +9,15 @@ authors = [
 ]
 
 edition = "2018"
+
 readme = "README.md"
 license = "MIT/Apache-2.0"
+
+description = "FFI crate that exposes Laminar for use in other languages"
+keywords = ["gamedev", "networking", "udp", "amethyst"]
+categories = ["game-engines", "network-programming"]
+exclude = ["examples/*", "docs/*", "benches/*"]
+repository = "https://github.com/amethyst/laminar-ffi"
 
 [lib]
 name = "laminar_ffi"
